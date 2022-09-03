@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    box-shadow: 0 5px 20px rgb(0 0 0 / 15%);
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.box_header {
+    background: linear-gradient(135deg, rgba(158, 15, 184, 0.7) -10%, rgba(5, 232, 255, 0.8) 180%), url(https://static.vecteezy.com/system/resources/previews/000/101/253/non_2x/vector-free-abstract-background-1.jpg);
+    background-size: cover;
+    color: white;
+    padding: 24px 50px 12px;
+    text-align: center;
+}
+
+.box_header .title{
+    font-size: 30px;
+    margin-bottom: 55px;
+}
+
+.box_header .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    line-height: 1.2;
+}
+
+.box_header span{
+    font-size: 24px;
+    font-size: 34px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.box_header h4{
+    font-size: 20px;
+}
+
+.box_body{
+    padding: 50px;
+    background: white;
+}
+
+.inputField{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.inputField input{
+    height: 55px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    margin-right: 5px;
+    transition: 0.3s ease;
+}
+
+input:focus{
+    box-shadow: none;
+    border-color: #6854bc;
+    outline: none;
+}
+
+.inputField .btn{
+    padding-left: 26px;
+    padding-right: 26px;
+    color: #fff;
+    background-color: #4f6dc6;
+    border-color: #4f6dc6;
+}
+
+.inputField .btn:hover{
+    background-color: #6953bb;
+    border-color: #6953bb;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+.list_item{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #f2f9fc;
+    border-left: 3px solid #4181cc;
+    padding-left: 15px;
+    margin-bottom: 4px;
+}
+
+.list_item input[type=checkbox]{
+    cursor: pointer;
+}
+
+.list_item input[type=text] {
+    height: 55px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 15px 12px;
+    margin-bottom: 4px;
+}
+
+.list_item .icon{
+    display: flex;
+    align-items: center;
+}
+
+.list_item .icon span{
+    display: block;
+    margin: 0 15px;
+    transition: 0.3s ease;
+    color: #447ecb;
+    cursor: pointer;
+}
+
+.list_item .close:hover{
+    color: red;
+}
+
+.list_item .edit:hover{
+    color: green;
+}
+span.close{
+    position: relative;
+}
+span.close:before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    width: 1px;
+    height: 100%;
+    background: gray;
+}
+
+form .clear_all{
+    background: #3e85d2;
+    color: white !important;
+    margin-top: 20px;
+    padding: 12px 15px;
+}
+
+form .clear_all:hover{
+    background: #6953bb;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper{
+    position: relative;
+}
+
+.bg{
+    background: linear-gradient(135deg, rgb(48 18 53 / 70%) -10%, rgba(5, 232, 255, 0.8) 180%), url(https://static.vecteezy.com/system/resources/previews/000/101/253/non_2x/vector-free-abstract-background-1.jpg);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 400px;
+    position: absolute;
+    z-index: -1;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="bg"></div>
+            <div class="container vh-100">
+                <div class="row h-100 justify-content-center align-items-center">
+                    <div class="col-md-8">
+                        <div class="box">
+                            <div class="box_header">
+                                <h1 class="title">Todo App</h1>
+                                <div class="info">
+                                    <div class="total">
+                                        <span>0</span>
+                                        <h4 class="text">Total</h4>
+                                    </div>
+                                    <div class="remaining">
+                                        <span>0</span>
+                                        <h4 class="text">Remaining</h4>
+                                    </div>
+                                    <div class="done">
+                                        <span>0</span>
+                                        <h4 class="text">Done</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box_body">
+                                <form action="">
+                                    <div class="inputField">
+                                        <input type="text" placeholder="New task">
+                                        <button class="btn" type="submit">Add</button>
+                                    </div>
+                                    <div class="todoList">
+
+                                    </div>
+                                    <button class="btn clear_all" type="button">Clear all</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
