@@ -91,8 +91,9 @@ form.addEventListener("submit", (e) => {
   });
 
   clearAll.addEventListener("click", function () {
-    completeTaskCount();
+    
     removeTask();
+    completeTaskCount();
     totalTask.innerText = todolist.childElementCount;
     remainingTaskCount();
   });
